@@ -1,3 +1,5 @@
+package ciclo.reto3.web;
+
 import ciclo.reto3.modelo.Cliente;
 import ciclo.reto3.servicio.ServiciosCliente;
 import java.util.List;
@@ -15,7 +17,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
-
 
 @RestController
 @RequestMapping("/api/Client")
